@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Application.ViewModels
 {
-    public class NewUserInputModel
+    public class UserViewModel
     {
-        public NewUserInputModel(string fullName, string email)
+        public UserViewModel(string fullName, string email)
         {
             FullName = fullName;
             Email = email;

@@ -15,7 +15,7 @@ namespace DevFreela.Application.Services.Implementations
         {
             _dbContext = dbContext;
         }
-        public int Create(InputModels.NewUserInputModel inputModel)
+        public int Create(NewUserInputModel inputModel)
         {
             var user = new User(inputModel.FullName, inputModel.Email, inputModel.Brithdate);
 
@@ -25,11 +25,11 @@ namespace DevFreela.Application.Services.Implementations
             return user.Id;
         }
 
-        public ViewModels.NewUserInputModel GetById(int id)
+        public ViewModels.UserViewModel GetById(int id)
         {
             var user = _dbContext.Users.SingleOrDefault(u => u.Id == id);
 
-            var userViewModel = new ViewModels.NewUserInputModel(user.FullName, user.Email);
+            var userViewModel = new UserViewModel(user.FullName, user.Email);
 
             return userViewModel;
         }

@@ -10,7 +10,7 @@ namespace DevFreela.Application.Services.Interfaces
 {
     public interface IUserService
     {
-        ViewModels.NewUserInputModel GetById(int id);
-        int Create(InputModels.NewUserInputModel inputModel);
+        UserViewModel GetById(int id);
+        int Create(NewUserInputModel inputModel);
     }
 }

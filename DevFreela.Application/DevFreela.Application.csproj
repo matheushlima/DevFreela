@@ -5,8 +5,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\CreateProject\" />
+    <Folder Include="Commands\DeleteProject\" />
+    <Folder Include="Commands\FinishProject\" />
+    <Folder Include="Commands\CreateComment\" />
+    <Folder Include="Commands\CreateUser\" />
+    <Folder Include="Commands\StartProject\" />
+    <Folder Include="Commands\UpdateProject\" />
+    <Folder Include="Queries\GetAllProject\" />
+    <Folder Include="Queries\GetByIdProject\" />
+    <Folder Include="Queries\GetAllSkill\" />
+    <Folder Include="Queries\GetByIdUser\" />
   </ItemGroup>
 
 </Project>

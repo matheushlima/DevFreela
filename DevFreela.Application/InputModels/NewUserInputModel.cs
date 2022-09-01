@@ -12,5 +12,6 @@ namespace DevFreela.Application.InputModels
         public string Password { get; set; }
         public string Email { get; set; }
         public DateTime Brithdate { get; set; }
+        public string Role { get; set; }
     }
 }

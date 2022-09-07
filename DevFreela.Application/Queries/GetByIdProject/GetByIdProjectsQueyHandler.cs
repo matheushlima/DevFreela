@@ -32,8 +32,8 @@ namespace DevFreela.Application.Queries.GetByIdProject
                 project.TotalCost,
                 project.StartedAt,
                 project.FinishedAt,
-                project.Client.FullName,
-                project.Freelancer.FullName
+                project.Client?.FullName ?? "",
+                project.Freelancer?.FullName ?? ""
                 );
 
             return projectViewModel;

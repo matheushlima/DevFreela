@@ -91,6 +91,7 @@ As seguintes ferramentas estão sendo utilizadas na construção do projeto:
 
 - IDE: **[Visual Studio](https://visualstudio.microsoft.com/)**
 - Teste de API: **[Swagger](https://swagger.io/)**
+- Mensageria: **[RabbitMq](https://www.rabbitmq.com/)**
 
 ---
 

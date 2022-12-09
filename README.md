@@ -1,8 +1,8 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucianfiocello/devfreela?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucianfiocello/devfreela">  
-  <a href="https://github.com/lucianfiocello/devfreela/tree/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucianfiocello/devfreela">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/matheushlima/devfreela?color=%2304D361">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/matheushlima/devfreela">  
+  <a href="https://github.com/matheushlima/devfreela/tree/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/matheushlima/devfreela">
   </a>    
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">   
 </p>
@@ -12,7 +12,7 @@
 </h1>
 
 <h4 align="center"> 
-	Em andamento
+	Completo
 </h4>
 
 <p align="center">
